@@ -6,6 +6,8 @@ document.getElementById("day").innerHTML = days[date.getDay()];
 function hour(h) {
     if(h<12){
         return h+" AM";
+    }else if(h==12){
+        return h+" Noon"
     }else{
         return (h-12)+" PM"   
     }
