@@ -22,7 +22,7 @@ printButton.onclick = function () {
 
 var dateNum, month, year;
 dateNum = date.getDate();
-month   = date.getMonth();
+month   = date.getMonth()+1;
 year    = date.getFullYear();
 
 for(i=0;i<4;i++)
